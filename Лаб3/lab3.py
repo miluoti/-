@@ -19,7 +19,7 @@ cost_i = cost_i[(cost_i.index(':') + 2):-1]
 doc = docx.Document('schet.docx')
 tables = doc.tables
 
-tables[0].cell(0, 0).paragraphs[0].text = 'АО "Банк Точка" Г. Санкт-Петербург'
+tables[0].cell(0, 0).paragraphs[0].text = 'АО "Банк Точка" Г. МОСКВА'
 tables[0].cell(0, 3).paragraphs[0].text = '044184700'
 tables[0].cell(1, 3).paragraphs[0].text = '74653098100000001000'
 tables[0].cell(3, 0).paragraphs[0].text = 'ИНН 7722763982'
